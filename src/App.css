@@ -1,0 +1,113 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.getStartedCardMainContainer{
+  /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 100%), url('../src/assets/IN-en-20240107-trifectadaily-perspective_alpha_website_large.jpeg'); */
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.9) 100%), url('https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/29d8d7d7-83cc-4b5f-aa9b-6fd4f68bfaa6/IN-en-20240205-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+  min-height: 100vh;
+  width: 100vw;
+  background-size: 130%;
+  
+}
+.getStartedInputStyle{
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0.511);
+  color: #FFFFFF;
+  border: 1px solid #94949485;
+}
+
+.getStartedButtonStyle{
+  background: rgb(229,9,20);
+  color: rgb(255,255,255);
+  border-radius: 3px;
+}
+.getStartedButtonStyle:hover{
+  background: rgb(185, 8, 17);
+}
+
+.selectArrowStyle{
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, rgb(255, 255, 255) 50%),
+    linear-gradient(135deg, rgb(255, 255, 255) 50%, transparent 50%);
+    background-position:
+    calc(100% - 20px) calc(1em + -2px),
+    calc(100% - 15px) calc(1em + -2px),
+    100% 0;
+  background-size:
+    5px 5px,
+    5px 5px,
+    2.5em 2.5em;
+  background-repeat: no-repeat; 
+
+}
+
+.downloadCss{
+  background-image:url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif');
+  background-size:cover;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  margin-right: 5px;
+}
+.regStepLogo {
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Devices.png) no-repeat 50% 50%;
+  background-size: 260px;
+  height: 90px;
+  display: block;
+}
+.regContactCard{
+  color: #737373;
+  background-color: #f3f3f3;
+}
+.planStepLogo {
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/simplicity/Checkmark.png) no-repeat 50% 50%;
+  background-size: 50px;
+  height: 60px;
+  display: block;
+  width: 60px;
+
+}
+.checkmark-group--icon {
+  align-self: flex-start;
+  color: #e50914;
+  flex: none;
+  height: 26px;
+  width: 26px;
+}
